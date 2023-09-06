@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
     public void OnClickReset(View view) {
         Price.setText(""); Price.setHint("");
         InitialPayment.setText(""); InitialPayment.setHint("");
-        Term.setText(""); Term.setHint("");
+        //Term.setText(""); Term.setHint("");
         InterestRate.setText(""); InterestRate.setHint("");
     }
 
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             initialpayment = Double.parseDouble(InitialPayment.getText().toString());
         } catch (Exception e) {
-            InitialPayment.setHint("Обязательно заполните это поле");
+            //InitialPayment.setHint("Обязательно заполните это поле");
             count += 1;
         }
         try {

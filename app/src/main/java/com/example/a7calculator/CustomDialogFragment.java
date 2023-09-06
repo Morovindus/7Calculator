@@ -19,10 +19,13 @@ public class CustomDialogFragment extends DialogFragment {
                 .setPositiveButton("Ок", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Intent homeIntent = new Intent(Intent.ACTION_MAIN);
+                        Intent intent = new Intent(Intent.ACTION_MAIN);
+                        startActivity(intent);
+
+                        /*Intent homeIntent = new Intent(Intent.ACTION_MAIN);
                         homeIntent.addCategory( Intent.CATEGORY_HOME );
                         homeIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                        startActivity(homeIntent);
+                        startActivity(homeIntent);*/
                     }
                 })
 
