@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.7Calculator" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/blue_600</item>
+        <item name="colorPrimaryDark">@color/blue_600</item>
+
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Theme.7Calculator" parent="Base.Theme.7Calculator" />
+</resources>
